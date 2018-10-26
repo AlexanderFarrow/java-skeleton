@@ -6,7 +6,7 @@ public class Question1 {
         int maxIndex = (portfolios.length - 1);
 
         int mergedPortfolio;
-        int bestMergedPortfolio = -1;
+        int bestMergedPortfolio = 0;
 
         for (int i = 0; i <= maxIndex-1; i++) {
 
